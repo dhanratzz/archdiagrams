@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" modified="2023-12-11T07:33:13.563Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="NySM11574N0XpxAlLi9H" version="22.1.7" type="github">
+  <diagram name="Page-1" id="ZzblB5w4tt8OOufSXDXE">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;strokeColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="210" y="110" width="470" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-10" value="Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#3399FF;arcSize=15;verticalAlign=top;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="172" width="130" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=3;startArrow=classic;startFill=1;" edge="1" parent="1" source="pCWuxJM3J03CjjJPVVSU-19" target="pCWuxJM3J03CjjJPVVSU-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="262" as="targetPoint" />
+            <mxPoint x="308" y="262" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=#999999;" edge="1" parent="1" source="pCWuxJM3J03CjjJPVVSU-5" target="pCWuxJM3J03CjjJPVVSU-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="420" />
+              <mxPoint x="568" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-5" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
+          <mxGeometry x="179" y="230" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-7" value="Log Analytics" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Log_Analytics_Workspaces.svg;" vertex="1" parent="1">
+          <mxGeometry x="570" y="277" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-9" value="Azure Monitor" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/management_governance/Monitor.svg;" vertex="1" parent="1">
+          <mxGeometry x="568" y="191" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-11" value="Resource Group" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="1">
+          <mxGeometry x="634" y="410" width="68" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-16" value="user" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" vertex="1" parent="1">
+          <mxGeometry x="42" y="234" width="47.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.047;entryY=0.484;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;startArrow=classic;startFill=1;" edge="1" parent="1" source="pCWuxJM3J03CjjJPVVSU-16" target="pCWuxJM3J03CjjJPVVSU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="pCWuxJM3J03CjjJPVVSU-18" target="pCWuxJM3J03CjjJPVVSU-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-18" value="blob storage" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;" vertex="1" parent="1">
+          <mxGeometry x="425" y="239.5" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-19" value="Azure CDN" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/CDN_Profiles.svg;" vertex="1" parent="1">
+          <mxGeometry x="311" y="242" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.115;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#999999;" edge="1" parent="1" source="pCWuxJM3J03CjjJPVVSU-19" target="pCWuxJM3J03CjjJPVVSU-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="390" />
+              <mxPoint x="550" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pCWuxJM3J03CjjJPVVSU-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.843;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#999999;" edge="1" parent="1" source="pCWuxJM3J03CjjJPVVSU-18" target="pCWuxJM3J03CjjJPVVSU-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
